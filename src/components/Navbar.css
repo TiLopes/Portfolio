@@ -1,0 +1,27 @@
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+
+.navLinks li a:hover {
+  color: #49478a;
+}
+
+.navLinks button {
+  border: none;
+  border-radius: 50px;
+  padding: 9px 25px;
+  background-color: #49478a;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.navLinks button:hover {
+  background-color: rgba(73, 71, 138, 0.8);
+}

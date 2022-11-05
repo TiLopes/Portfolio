@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 16px;
+  line-height: 1.5rem;
+  background-color: #010207;
+  color: #fff;
+  --accent-color: #4d468d;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+li,
+a,
+button {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
