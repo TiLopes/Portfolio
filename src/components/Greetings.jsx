@@ -1,13 +1,14 @@
 import bitmap from "../assets/bitmap.svg";
 import React from "react";
 import { Zoom } from "react-awesome-reveal";
+import "./Greetings.css";
 
 export default function Greetings() {
   return (
     <Zoom duration={500} triggerOnce>
-      <section className="greetings mt-24 mb-36 max-w-[1600px] mx-auto h-[630px]">
-        <div className="grid grid-flow-col items-center auto-cols-[1fr] max-lg:grid-flow-row">
-          <div className="greeting-text pl-28">
+      <section className="greetings mt-24 mb-36 max-w-[1600px] mx-auto h-auto">
+        <div className="grid grid-flow-col items-center grid-cols-2">
+          <div className="greeting-text flex flex-col justify-self-center">
             <h1 className="text-6xl ">
               Hello <span>👋</span>
             </h1>
@@ -29,7 +30,7 @@ export default function Greetings() {
               </a>
             </div>
           </div>
-          <div className="justify-self-center pr-20">
+          <div className="justify-self-center pr-20 image">
             <img src={bitmap} className="max-w-xl"></img>
           </div>
         </div>

@@ -14,6 +14,16 @@
   -webkit-text-size-adjust: 100%;
 }
 
+::-moz-selection {
+  color: #fff;
+  background: rgb(77, 70, 141, 0.5);
+}
+
+::selection {
+  color: #fff;
+  background: rgb(77, 70, 141, 1);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -32,7 +42,7 @@ li,
 a,
 button {
   font-family: "Poppins", Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   list-style: none;
 }

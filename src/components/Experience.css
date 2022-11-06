@@ -1,8 +1,8 @@
-.card {
+.experience .card {
   min-height: 200px;
   min-width: 250px;
   border-color: var(--accent-color);
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -24,6 +24,6 @@
   padding-right: 1.25rem;
 }
 
-.card:hover {
+.experience .card:hover {
   transform: scale(1.1);
 }
