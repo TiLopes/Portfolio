@@ -1,6 +1,7 @@
 import bitmap from "../assets/bitmap.svg";
 import React from "react";
 import { Zoom } from "react-awesome-reveal";
+import { AttentionSeeker } from "react-awesome-reveal";
 import "./Greetings.css";
 
 export default function Greetings() {
@@ -10,7 +11,10 @@ export default function Greetings() {
         <div className="grid grid-flow-col items-center grid-cols-2">
           <div className="greeting-text flex flex-col justify-self-center">
             <h1 className="text-6xl ">
-              Hello <span>👋</span>
+              Hello
+              <AttentionSeeker effect="shakeX" duration={1200} triggerOnce>
+                <span>👋</span>
+              </AttentionSeeker>
             </h1>
             <h2 className="text-3xl">
               I'm{" "}

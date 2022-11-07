@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .greetings .image {
     padding-right: 0;
     transform: scale(0.5);

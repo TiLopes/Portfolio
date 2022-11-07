@@ -5,7 +5,7 @@ import face from "../assets/face.jpg";
 export default function About() {
   return (
     <Fade direction="up" duration={500} triggerOnce>
-      <section className="about max-w-[1600px] mx-auto mb-36 h-auto" id="about">
+      <section className="about max-w-[1600px] mx-auto mb-40 h-auto" id="about">
         <div className="grid grid-flow-col items-center grid-cols-2">
           <div className="image flex justify-center">
             <img src={face} alt="" className="rounded-[50%] w-3/4" />

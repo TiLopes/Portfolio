@@ -4,7 +4,10 @@ import auth from "../assets/auth.svg";
 
 function Projects() {
   return (
-    <section className="projects max-w-[1600px] mx-auto mb-36 h-auto">
+    <section
+      className="projects max-w-[1600px] mx-auto mb-36 h-auto"
+      id="projects"
+    >
       <h1 className="text-3xl font-medium text-[#4d468d] bg-[#4d468d]/[0.15] w-max p-1 rounded-lg mb-10">
         📎 Portfolio
       </h1>
