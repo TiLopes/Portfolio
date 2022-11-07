@@ -3,7 +3,7 @@ import "./Experience.css";
 
 export default function Experience() {
   return (
-    <section className="experience max-w-[1600px] mx-auto mb-36 h-auto">
+    <section className="experience max-w-[1600px] mx-auto mb-36 min-h[200]">
       <div className="card-wrapper flex items-center justify-center gap-16 flex-wrap">
         <Fade cascade damping={0.1} duration={500} direction="left" triggerOnce>
           <div className="card flex justify-center items-center flex-col">

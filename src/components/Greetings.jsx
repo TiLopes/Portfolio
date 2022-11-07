@@ -7,12 +7,17 @@ import "./Greetings.css";
 export default function Greetings() {
   return (
     <Zoom duration={500} triggerOnce>
-      <section className="greetings mt-24 mb-36 max-w-[1600px] mx-auto h-auto">
+      <section className="greetings mt-8 mb-36 max-w-[1600px] mx-auto min-h-[625px]">
         <div className="grid grid-flow-col items-center grid-cols-2">
           <div className="greeting-text flex flex-col justify-self-center">
-            <h1 className="text-6xl ">
+            <h1 className="text-6xl flex mb-2">
               Hello
-              <AttentionSeeker effect="shakeX" duration={1200} triggerOnce>
+              <AttentionSeeker
+                effect="shakeX"
+                duration={1200}
+                delay={500}
+                triggerOnce
+              >
                 <span>👋</span>
               </AttentionSeeker>
             </h1>
