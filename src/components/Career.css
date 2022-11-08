@@ -1,0 +1,7 @@
+.career .card {
+  height: 250px;
+  width: 600px;
+  border-color: var(--accent-color);
+  border-width: 2px;
+  border-radius: 16px;
+}
