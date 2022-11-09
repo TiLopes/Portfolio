@@ -1,7 +1,24 @@
 .career .card {
-  height: 250px;
-  width: 600px;
+  min-height: 250px;
+  max-width: 600px;
   border-color: var(--accent-color);
   border-width: 2px;
   border-radius: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .career .grid {
+    grid-auto-flow: row;
+    grid-template-rows: auto;
+    grid-template-columns: none;
+    justify-content: center;
+  }
+
+  .career-path:first-child {
+    margin-top: 0;
+  }
+  .career h2 {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
 }

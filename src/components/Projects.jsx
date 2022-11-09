@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Projects() {
   return (
-    <Fade duration={300} direction="down">
+    <Fade duration={300} direction="down" triggerOnce>
       <section
         className="projects max-w-[1600px] mx-auto mb-36 min-h-[625px]"
         id="projects"
